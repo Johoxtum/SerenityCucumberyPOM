@@ -1,0 +1,16 @@
+#Compile output
+!target/site/serenity/results.csv
+target/*
+
+
+#System Files
+.DS_Store
+
+#IDEs and editors
+.idea/
+.project
+.classpath
+.settings/
+
+#Enviroment variables
+.env

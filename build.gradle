@@ -1,0 +1,57 @@
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
+
+buildscript {
+    repositories {
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+    dependencies {
+        classpath("net.serenity-bdd:serenity-gradle-plugin:3.2.5")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'net.serenity-bdd.aggregator'
+apply plugin: "net.serenity-bdd.serenity-gradle-plugin"
+
+
+group 'org.example'
+version '1.0'
+
+ext {
+    serenityVersion = '3.6.12'
+}
+
+ext {
+    slf4jVersion = '2.0.5'
+    serenityCoreVersion = '3.6.12'
+    junitVersion = '3.4.1'
+    assertJVersion = '3.24.2'
+    selenium = '4.8.1'
+    Lombok = '1.18.26'
+
+}
+
+dependencies {
+
+
+    implementation "net.serenity-bdd:serenity-junit:${serenityCoreVersion}",
+            "net.serenity-bdd:serenity-cucumber:${serenityCoreVersion}",
+            "org.assertj:assertj-core:${assertJVersion}",
+            "org.slf4j:slf4j-simple:${slf4jVersion}",
+            "org.seleniumhq.selenium:selenium-java:${selenium}"
+            "net.serenity-bdd:serenity-core:${serenityCoreVersion}"
+    compileOnly "org.projectlombok:lombok:${Lombok}"
+    annotationProcessor "org.projectlombok:lombok:${Lombok}"
+    testImplementation 'io.github.bonigarcia:webdrivermanager:5.2.1'
+
+
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'iso-8859-1'
+}
