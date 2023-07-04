@@ -1,4 +1,4 @@
-# Proyecto de Automatización QA con Serenity, POM y Cucumber  :computer: :mag_right:
+# Automation Exercise1 :computer: :mag_right:
 
 Este proyecto es un ejemplo de automatización de pruebas utilizando Serenity, Page Object Model (POM) y Cucumber con Gradle. El objetivo de este proyecto es mostrar mis habilidades como QA Automation Engineer y mi capacidad para desarrollar pruebas automatizadas de calidad.
 
