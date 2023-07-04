@@ -46,11 +46,7 @@ git clone https://github.com/Johoxtum/SerenityCucumberyPOM.git
 
 ## Contacto :email:
 
-Si tienes alguna pregunta o comentario sobre este proyecto, no dudes en contactarme:
-
-- Nombre: Tu Nombre
-- Email: tuemail@example.com
-- LinkedIn: [Tu Perfil de LinkedIn](https://www.linkedin.com/in/johoxtum-jimenez-463ba1211/)
+Para cualquier consulta o pregunta, puedes contactarme a través de mi dirección de correo electrónico ? [Johoxtum@gmail.com](mailto:Johoxtum@gmail.com) y también puedes encontrarme en LinkedIn ? [Perfil de LinkedIn](https://www.linkedin.com/in/johoxtum-jimenez-463ba1211/) ?
 
 ¡Gracias por tu interés en este proyecto de automatización QA!
 
