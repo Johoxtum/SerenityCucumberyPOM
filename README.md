@@ -44,18 +44,6 @@ git clone https://github.com/Johoxtum/SerenityCucumberyPOM.git
 
 3. Después de que se completen las pruebas, se generarán informes detallados en el directorio `target/site/serenity`.
 
-## Contribución :raising_hand:
-
-Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
-
-1. Haz un fork de este repositorio.
-
-2. Crea una rama con una descripción clara de la característica o mejora que planeas implementar.
-
-3. Realiza los cambios en tu rama.
-
-4. Envía un pull request explicando detalladamente los cambios realizados.
-
 ## Contacto :email:
 
 Si tienes alguna pregunta o comentario sobre este proyecto, no dudes en contactarme:
